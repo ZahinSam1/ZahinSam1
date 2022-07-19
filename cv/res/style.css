@@ -1,0 +1,377 @@
+body{
+    background: #E2E2E2;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 1300px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.cv{
+    width: 700px;
+    height: 1200px;
+    background: white;
+    box-shadow: 10px 10px 10px #706f6f;
+    position: absolute;
+    z-index: 3;
+    left: 30%;
+    overflow: hidden;
+
+}
+
+.shape_one{
+    width: inherit;
+    height: 300px;
+    background-image: linear-gradient(to right, #ffffff, #323232);
+    opacity: 0.7;
+    position: relative;
+    z-index: -1;
+    top: 0px;
+    left: 100px;
+    transform: rotate(45deg);
+}
+
+.shape_two{
+    width: 700px;
+    height: 590px;
+    background-image: linear-gradient(to right, #ffffff, #323232);
+    opacity: 0.3;
+    position: relative;
+    z-index: 3;
+    top: -900px;
+    left: 0px;
+}
+
+.resumeTop {
+    height: 100px;
+    width: 50px;
+    background: #2f70c5;
+    background-image: linear-gradient(to top, #a3a0a0, #323232);
+    margin-left: 30px;
+    margin-top: -40px;
+    box-shadow: 5px 5px 5px #a3a0a0;
+    position: relative;
+    z-index: 2;
+    
+}
+
+#resume{
+    position: relative;
+    top: 48px;
+    left: 8px;
+
+    background: none;
+
+    transform-origin: 1 ;
+    transform: rotate(-90deg);
+
+    margin-left: -15px;
+    margin-top: 38px;
+
+    font: bold 22px Lucida Console;
+    color: #E2E2E2;
+}
+
+#nameTop {
+    font: bold 22px Lucida Console;
+    margin-top: -50px;
+    margin-left: 150px;
+    top: -290px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 1px;
+}
+
+.name_underline {
+    height: 15px;
+    width: 536px;
+    background: #5892de;
+    background-image: linear-gradient(to left, #ffffff, #939292);
+    margin-left: 150px;
+    margin-top: -300px;
+    padding: 7px;
+    font: bold 18px monospace;    
+}
+
+#designation{
+    position: relative;
+    top: -25px;
+    left: 7px;
+}
+
+#proPic {
+    margin-left: 460px;
+    margin-top: -70px;
+    border-style: solid;
+    border-width: 4px;
+    padding: 3px;
+    border-color: white;
+    height: 190px;
+    width: 140px;
+}
+
+/* design for about me part */
+.infoTrack{
+    position: relative;
+    top: -40px;
+}
+
+#trackMe {
+    width: 140px;
+    font: bold 20px Trebuchet MS;
+    text-transform: uppercase;
+    position: relative;
+    left: 36px;
+    top: -90px;
+}
+
+#TrackUnderLine {
+    height: 4px;
+    width: 50px;
+    left: 10px;
+    border-radius: 20%;
+    background: black;
+}
+
+#contacts {
+    width: 250px;
+    left: 40px;
+    top: -100px;
+    position: relative;
+
+}
+
+#mailAdd {
+    color: black;
+}
+
+#contact_phone_pic {
+    position: relative;
+    top: 6px;
+}
+
+/* design for about me part */
+.aboutmeBox {
+    width: 640px;
+    height: 300px;
+    background: #5892de;
+    background-image: linear-gradient( #b6b1b1, #626060);
+    position: relative;
+    border-radius: 1%;
+    top: -140px;
+    left: 30px;
+}
+
+#aboutmeText {
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font: bold 20px Trebuchet MS;
+}
+
+.aboutmeTextUnderline{
+    height: 4px;
+    width: 90px;
+    left: -1px;
+    border-radius: 20%;
+    background: black;
+    position: relative;
+}
+
+#aboutmePara{
+    height: 230px;
+    width: 580px;
+    font: normal 18px Trebuchet MS;
+    position: relative;
+    left: 45px;
+    top: 30px;
+}
+
+/* design for education part */
+.edu_exp{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: -105px;
+    left: 30px;
+}
+
+#edu_exp_text{
+    position: relative;
+    height: fit-content;
+    width: 310px;
+    top: 10px;
+}
+
+.underline_edu{
+    height: 1.2px;
+    width: 50px;
+    left: -1px;
+    top: -5px;
+    border-radius: 25%;
+    background: black;
+    position: relative;
+}
+
+.short_e {
+    height: 6px;
+    left: -3px;
+}
+
+.long_e {
+    width: 400px;
+    left: -3px;
+    top: -9px;
+}
+
+.breakline{
+    height: 1.2px;
+    width: 300px;
+    left: 30px;
+    top: 130px;
+    border-radius: 25%;
+    background: black;
+    position: absolute;
+}
+
+.hsc{
+    top: 250px;
+}
+
+#edu_info{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font: normal 18px Trebuchet MS;
+    line-height: 0.8;
+}
+
+#edu_info_h{
+    position: inherit;
+    top: -15px;
+    left: 20px;
+    line-height: 18px;
+}
+
+#edu_info_para{
+    position: inherit;
+    top: -68px;
+    left: 170px;
+}
+
+.divideline{
+    height: 500px;
+    width: 1.2px;
+    left: 436px;
+    top: 680px;
+    border-radius: 25%;
+    background: black;
+    position: absolute;
+}
+
+/* design for skills part */
+.skills {
+    height: 300px;
+    width: 219px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    z-index: 6;
+    left: 450px;
+    top: -405px;
+    
+
+}
+
+#skills_text{
+    position: absolute;
+    height: fit-content;
+    width: 310px;
+    top: -10px;
+}
+
+.underline_skills{
+    height: 1.2px;
+    width: 50px;
+    left: -1px;
+    top: 35px;
+    border-radius: 25%;
+    background: black;
+    position: absolute;
+}
+
+.short_s {
+    height: 6px;
+    left: -3px;
+}
+
+.long_s {
+    width: 230px;
+    left: -3px;
+    top: 37px;
+}
+
+#skills_info{
+    position: relative;
+    top: -85px;
+    left: 10px;
+    font: normal 18px Trebuchet MS;
+}
+
+#skills_info_list{
+    position: inherit;
+    top: 70px;
+    left: -20px;
+}
+
+
+/* design for hobbies part */
+.hobbies {
+    height: 150px;
+    width: 400px;
+    position: relative;
+    z-index: 6;
+    top: -380px;
+    left:  30px;
+
+}
+
+#hobbies_text{
+    position: relative;
+    height: fit-content;
+    width: 310px;
+    top: 10px;
+}
+
+.underline_hobbies{
+    height: 1.2px;
+    width: 50px;
+    left: -1px;
+    top: 25px;
+    border-radius: 25%;
+    background: black;
+    position: absolute;
+}
+
+.short_h {
+    height: 6px;
+    left: -3px;
+}
+
+.long_h {
+    width: 230px;
+    left: -3px;
+    top: 27px;
+}
+
+#hobbies_info{
+    position: relative;
+    top: 14px;
+    left: 10px;
+    font: normal 18px Trebuchet MS;
+    line-height: 24px;
+}
